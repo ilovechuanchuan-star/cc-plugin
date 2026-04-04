@@ -1,1 +1,1 @@
-# istore
+# CC plugin
