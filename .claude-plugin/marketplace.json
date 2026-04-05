@@ -1,0 +1,18 @@
+{
+  "name": "cc-plugin-marketplace",
+  "owner": {
+    "name": "辉皇",
+    "email": "xzh106501@alibaba-inc.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for copilot-proxy and related projects"
+  },
+  "plugins": [
+    {
+      "name": "copilot-proxy-plugin",
+      "source": ".",
+      "description": "Claude Code plugin for copilot-proxy project - injects rules and subagent markers",
+      "version": "1.0.0"
+    }
+  ]
+}
