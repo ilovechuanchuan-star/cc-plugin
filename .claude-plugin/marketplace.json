@@ -1,18 +1,18 @@
 {
   "name": "cc-plugin-marketplace",
   "owner": {
-    "name": "辉皇",
-    "email": "xzh106501@alibaba-inc.com"
+    "name": "ilovechuanchuan-star",
+    "email": "ilovechuanchuan@gmail.com"
   },
   "metadata": {
-    "description": "Claude Code plugins for copilot-proxy and related projects"
+    "description": "Claude Code plugins for copilot-proxy — subagent marker injection and session rules"
   },
   "plugins": [
     {
       "name": "copilot-proxy-plugin",
       "source": ".",
-      "description": "Claude Code plugin for copilot-proxy project - injects rules and subagent markers",
-      "version": "1.0.0"
+      "description": "Injects subagent markers for x-initiator agent detection, session rules, and prompt hooks",
+      "version": "1.1.0"
     }
   ]
 }
