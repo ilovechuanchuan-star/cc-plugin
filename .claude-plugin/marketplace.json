@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "copilot-proxy-plugin",
-      "source": ".",
+      "source": "./",
       "description": "Injects subagent markers for x-initiator agent detection, session rules, and prompt hooks",
       "version": "1.2.0"
     }
