@@ -1,7 +1,7 @@
 {
   "name": "copilot-proxy-plugin",
   "description": "Claude Code plugin for copilot-proxy — injects session rules, subagent markers for x-initiator agent detection, and prompt hooks",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "ilovechuanchuan-star"
   },
