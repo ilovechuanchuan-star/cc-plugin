@@ -22,16 +22,11 @@ GitHub Copilot 根据 `X-Initiator` 请求头计费：
 /plugin install copilot-proxy-plugin@cc-plugin-marketplace
 ```
 
-### 方式二：从 GitHub 直接安装
+### 方式二：从本地目录安装
 
 ```bash
-claude plugin install ilovechuanchuan-star/cc-plugin
-```
+/plugin install ilovechuanchuan-star/cc-plugin
 
-### 方式三：从本地目录安装
-
-```bash
-claude plugin install /path/to/cc-plugin --scope user
 ```
 
 ### 验证安装
