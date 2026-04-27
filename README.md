@@ -84,6 +84,7 @@ cc-plugin/
 
 ## 版本历史
 
+- **1.3.0** — SessionStart 默认注入 `__SUBAGENT_MARKER__`（修复新 session 启动时 CLAUDE.md / SessionStart hook 上下文被误判为 user 的问题）；修复 SubagentStart marker 缺失 `<system-reminder>` 包装导致 copilot-proxy 无法识别的 bug
 - **1.2.0** — 新增 Marketplace 支持，完善安装文档
 - **1.1.0** — 同步 copilot-api v1.5.3，更新描述和元数据
 - **1.0.0** — 首次发布，从 copilot-api claude-plugin 迁移
